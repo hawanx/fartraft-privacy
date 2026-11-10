@@ -66,7 +66,7 @@
 <main>
 <div class="card">
   <h1>Fart Raft Privacy Policy</h1>
-  <p class="meta">Effective date: 8 November 2026 &middot; Developer: RedGrapesGames</p>
+  <p class="meta">Effective date: 10 November 2026 &middot; Developer: RedGrapesGames</p>
 
   <p>This policy explains what information the game <strong>Fart Raft</strong> (the "game"), made by
   <strong>RedGrapesGames</strong> ("we", "us"), collects, how it is used and shared, and the choices you have.
@@ -98,6 +98,11 @@
   <p>The game creates a random code on your device the first time it registers your nickname. It proves that the
   nickname is yours when you change it or send a score. We store only a one-way scrambled form (a hash) of this code,
   and it is not linked to your name, your phone number or your Google account.</p>
+  <p>On Android, so that you keep your nickname, tag and results when you reinstall the game on the same phone, the
+  game also makes a recovery code from your device's Android ID (an identifier Android gives each app on a device;
+  it stays the same when the app is reinstalled). The game scrambles it on your device before sending it, so the
+  Android ID itself never leaves your phone, and we store only a hash of what it sends. We use it only to give your
+  player back to the same device. It is not used for ads and is never combined with your advertising ID.</p>
 
   <h3>Game results and progress</h3>
   <p>When you finish the course, the game sends the result to our server:</p>
@@ -173,7 +178,8 @@
   <h2>4. How long we keep it</h2>
   <p>Your nickname, tag and results are kept for as long as the game's leaderboards are running, unless you
   ask us to delete them. Voice chat is not stored. The information saved on your device is removed when you uninstall
-  the game; if you reinstall, you get a new tag, and your old results stay on the leaderboard under the old one
+  the game. If you reinstall it on the same Android phone, you get your nickname, tag and results back (see "Device
+  code" above); on other devices you get a new tag, and your old results stay on the leaderboard under the old one
   unless you ask us to remove them.</p>
 
   <h2 id="delete">5. Your choices and rights</h2>
@@ -199,7 +205,7 @@
   <h2>7. Security</h2>
   <p>Information sent between the game and our services is encrypted in transit (HTTPS/TLS). Our database can't be read
   or changed directly from the internet: the game can only add results through checked functions, and the device code
-  is stored only as a hash. No method of storing or sending information is completely secure, but we work to protect
+  and recovery code are stored only as hashes. No method of storing or sending information is completely secure, but we work to protect
   yours.</p>
 
   <h2>8. International transfers</h2>
